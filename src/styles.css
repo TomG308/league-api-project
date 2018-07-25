@@ -1,0 +1,277 @@
+/* gold: #e6c200, blue: #000034, purple: 340034, green: 003400, white: #ffffff */
+
+
+  body {
+    background-color: #adadad;
+  }
+
+  /* phone nav bar styles */
+
+  .navBar {
+    height: auto;
+    margin: 20px;
+  }
+
+  a {
+    border: solid #000034 2px;
+    margin: 5px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: #e6c200;
+    background-color: #003400;
+    box-shadow: 3px 2px black;
+  }
+
+  a:active {
+    border: solid #000034 2px;
+    margin: 5px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: #e6c200;
+    background-color: #001d00;
+    box-shadow: 2px 1px black;
+  }
+
+/* mobile phone body styles */
+
+/* mobile home styels */
+
+.home-body {
+  background: url(https://na.leagueoflegends.com/sites/default/files/upload/art/morgana_vs_ahri_3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+  .home-body h1{
+    text-align: center;
+    color: #e6c200;
+    border: black 2px #ffffff;
+    background-color: #003400;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 3px 2px black;
+  }
+
+  .home-body h3 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    color: #e6c200;
+    background-color: rgba(0, 52, 0, 0.452);
+
+  }
+
+  input {
+    margin: auto;
+    display: block;
+    padding: 10px 50px;
+    border: solid black 1px;
+    box-shadow: 3px 2px black;
+    text-align: center;
+    background-color: #eceaea;
+    font-size: 15px;
+  }
+
+  button {
+    margin:  10px auto;
+    display: block;
+    padding: 10px 50px;
+    border: solid black 1px;
+    box-shadow: 3px 2px black;
+    background-color: #003400;
+    color: #e6c200;
+    font-size: 15px;
+  }
+
+ button:active {
+    margin:  10px auto;
+    display: block;
+    padding: 10px 50px;
+    border: solid black 1px;
+    box-shadow: 2px 1px black;
+    background-color: #001d00;
+    color: #e6c200;
+    font-size: 15px;
+  }
+
+  .summoner-info{
+    border: solid 2px #003400;
+    height: auto;
+    width: 66%;
+    margin: auto;
+    color: white;
+    background-color: rgba(0, 52, 0, 0.452);
+    /* background-color: #adadad; */
+  }
+
+  .get-id{
+    color: #e6c200;
+   
+    text-align: center;
+  }
+
+  /* Champions */ 
+
+  .teemo {
+    background: url(https://na.leagueoflegends.com/sites/default/files/upload/art/morgana_vs_ahri_3.jpg);
+    background-size: cover;
+  }  
+
+  .teemo h1, ul {
+    background-color: rgba(0, 52, 0, 0.452);
+    color: #e6c200
+  }
+
+  /* profile */
+
+  .profile {
+    background: url(https://vignette.wikia.nocookie.net/leagueoflegends/images/6/68/Ahri_Lore_4.jpg/revision/latest?cb=20170429002545);
+    background-size: cover;
+    text-align: center;
+  }
+
+  .profile h1, h2, h3{
+    color: #e6c200;
+  }
+
+  .profile h1 {
+    text-decoration: underline;
+  }
+
+  .champion_data {
+    background-color: rgba(0, 52, 0, 0.425)
+  }
+  
+  /* server styes */ 
+
+  .server_stye {
+    background-color: #003400;
+  }
+
+  .text{
+    color: #e6c200;
+    display: block;
+  }
+
+/* phone foot styles */
+
+  .foot {
+    border-top: solid white 1px;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+
+  /* desktop styles */
+
+  @media only screen and (min-width: 700px){
+    body {
+    background-color: #adadad;
+    }
+
+    /* nav bar */
+
+    .navBar {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      border: solid 1px white;
+      background: url(http://lol-wallpapers.com/wp-content/uploads/2017/01/League-of-Legends-Youtube-Banner-Art-League-of-Legends-Artwork-Wallpaper-lol.jpg);
+      background-size: cover;
+      height: 200px;
+      }
+
+      .navBar a {
+        padding: 20px 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        background-color: rgba(0, 52, 0, 0.637)
+      }
+
+      .navBar a:hover {
+        padding: 20px 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        background-color:rgba(0, 52, 0, 0.842);
+        box-shadow: 1px 2px black;
+      }
+
+      /* home */
+
+      .home-body {
+        height: 800px;
+      }
+
+      .banner {
+        /* background-color: rgba(0, 52, 0, 0.705); */
+        width: 33%;
+        margin: auto
+      }    
+      
+      .banner h3 {
+        background-color: #000034;
+      }
+
+      .summoner-info{
+        width: 33%;
+        background-color: rgba(0, 52, 0, 0.678);
+        box-shadow: 2px 3px black;
+      }
+
+      /* champions */
+
+      .h1 {
+        text-align: center;
+        text-decoration: underline;
+      }
+
+      .teemo h1 {
+        background: none;
+      }
+
+      .teemo ul {
+        width: 66%;
+        margin: auto;
+      }
+
+      /* profile */
+
+      .profile {
+        height: 900px;
+      }
+
+      .user_data{
+        background: url("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_0.jpg");
+        background-size: cover;
+        color: crimson;
+        margin: 20px auto;
+        width: 66%;
+        /* height: 600px; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+
+      .champ_data_styles {
+        margin: 30px;
+        background-color: rgba(130, 130, 228, 0.425)
+      }
+
+      /* server styes */
+
+      .server_stye {
+        background: url(https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Leona_0.jpg);
+        background-size: cover;
+        height: 900px;
+      }
+
+      .text{
+        color: #e6c200;
+        background-color: rgba(0, 52, 0, 0.425);
+        display: block;
+        width: 33%;
+      }
+    }
